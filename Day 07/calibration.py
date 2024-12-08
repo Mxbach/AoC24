@@ -1,5 +1,3 @@
-from itertools import product
-
 def rec_two_star(target: int, curr: int, numbers: list[int]) -> bool:
     if not numbers:
         return target == curr
